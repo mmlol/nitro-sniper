@@ -15,15 +15,20 @@ Snipe nitro gift codes from alt accounts to your main account.
 - One-click deploy.
 - Webhook support.
 
+# Servers
+- It is recommended to join servers from server sites such as disboard.
+- Avoid a huge quantity of big servers with **50,000** members or more as it can slow down the sniper due to it using a lot more memory for its cache.
+- Recommended site: https://disboard.org/servers?sort=-member_count
+
 # Installation methods
-#### Heroku (recommended)
+## ___Heroku (recommended)___
 Click on the image below and login to continue the setup. 
 
 ##### After deploying, Go to the `Resources` tab and turn off the `web` dyno and turn on `worker`. Now you can go ahead and click on `More` in the top right and click on logs.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/slow/nitro-sniper/tree/main)  
 
-#### Local
+## ___Local___
 - Make sure [Node](https://nodejs.org/en/) is installed on your system and open a command prompt/terminal.
 - Run `git clone https://github.com/slow/nitro-sniper nitro-sniper`
 - Run `cd nitro-sniper`

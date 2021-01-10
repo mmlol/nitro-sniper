@@ -3,6 +3,7 @@
    "description": "A nitro sniper for discord.",
    "repository": "https://github.com/slow/nitro-sniper",
    "logo": "https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png",
+   "stack": "heroku-20",
    "env": {
       "mainToken": {
          "description": "Your main account's token, used for redeeming the gift.",

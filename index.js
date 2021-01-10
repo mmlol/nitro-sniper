@@ -42,6 +42,11 @@ if (webhookUrl != null) {
 
 for (const token of tokens) {
    const client = new Client({
+      messageCacheLifetime: 1,
+      messageCacheMaxSize: 10,
+      messageSweepInterval: 5,
+      messageEditHistoryMaxSize: 1,
+      restTimeOffset: 0,
       disabledEvents: [
          'TYPING_START', 'VOICE_SERVER_UPDATE', 'RELATIONSHIP_ADD', 'RELATIONSHIP_REMOVE',
          'GUILD_ROLE_DELETE', 'GUILD_ROLE_UPDATE', 'GUILD_BAN_ADD', 'GUILD_BAN_REMOVE',
